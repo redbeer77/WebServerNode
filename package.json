@@ -1,0 +1,19 @@
+{
+  "name": "webservernode",
+  "version": "1.0.0",
+  "description": "web server node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redbeer77/WebServerNode.git"
+  },
+  "author": "RedBeer77",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redbeer77/WebServerNode/issues"
+  },
+  "homepage": "https://github.com/redbeer77/WebServerNode#readme"
+}
