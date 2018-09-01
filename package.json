@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/redbeer77/WebServerNode/issues"
   },
-  "homepage": "https://github.com/redbeer77/WebServerNode#readme"
+  "homepage": "https://github.com/redbeer77/WebServerNode#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
