@@ -1,5 +1,9 @@
 ## WebServer with Express + hbs
 
+First:
+```
+npm install
+```
 Ejecutar 
 ```
 nodemon server 
