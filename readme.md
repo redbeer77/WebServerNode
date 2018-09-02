@@ -2,9 +2,9 @@
 
 Ejecutar 
 ```
-nodemon app 
+nodemon server 
 or
-node app 
+node server 
 ```
 dirigirse a la dirección
 ```
