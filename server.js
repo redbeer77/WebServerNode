@@ -11,26 +11,16 @@ app.set('view engine', 'hbs');
 
 app.get('/',  (req, res) => {
   
-    // let salida = {
-    //     nombre:'Alberto',
-    //     edad: 33,
-    //     url: req.url
-    // }
-
-
     res.render('index',{
         nombre:'Alberto'
     })
-    //res.send(salida)
 
 })
-// app.get('/data',  (req, res) => {
-  
 
-//     res.send('Hola data')
+app.get('/about',  (req, res) => {
+    res.render('about')
+})
 
-// })
- 
 app.listen(8080,() =>{
     console.log('escuchando petiiones en puerto 8080')
 })
