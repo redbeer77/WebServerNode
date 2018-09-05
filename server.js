@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const hbs = require('hbs');
+require('./hbs/helpers');
  
 
 app.use(express.static(__dirname + '/public'))
@@ -12,7 +13,7 @@ app.set('view engine', 'hbs');
 app.get('/',  (req, res) => {
   
     res.render('index',{
-        nombre:'Alberto'
+        nombre:'alberto castro'
     })
 
 })
